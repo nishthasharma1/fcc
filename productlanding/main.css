@@ -1,1 +1,28 @@
+ #header-img {
+  width: 200px;
+  height: auto
+}
 
+header {
+  position: fixed;
+}
+
+@media screen and (max-width: 600px) {
+html {
+  background-color: #ff8776;
+  }
+  .nav-bar {
+    size: 200px;
+      colour: white;
+  }
+  .top-nav {
+    background-color: #000;
+    overflow: hidden;
+  }
+}
+
+.flex-container {
+  display: flex;
+  flex-dierction: row;
+  justify-content: center;
+}
