@@ -1,0 +1,48 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<main id="main-doc"> 
+  
+    <section class="main-section" id="Introduction"> 
+      <header> Introduction <header>
+        HEY! This technical 
+  </section> 
+ 
+  
+  <section class="main-section" id="lorem_ipsum"> 
+    <header> Lorem Ipsum </header> 
+    <h2> What is Lorem Ipsum? </h2>
+      <p>
+        <code>Lorem Ipsum</code> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </p>
+    <p> There are variations for each of them as well by these people: </p>
+    <ul> 
+      <li> Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC </li>
+      <li> 1914 translation by H. Rackham </li>
+      <li> Section 1.10.33 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC </li>
+      <li> 1914 translation by H. Rackham </li> 
+    </ul>
+   <p> 
+     You can get a different Lorem Ipsum for different uses. Such as for: 
+    </p>
+     <ul>
+       <li>Paragraphs</li>
+         <li>Words</li>
+         <li>Bytes</li>
+         <li>Lists</li>
+      </ul> 
+    </section> 
+  
+  <section class="main-section" id="Pypsum"> 
+    <header> Pypsum </header> 
+    <h2> What is it? </h2> 
+    <p>
+      <code>Pypsum</code> is a program written in the Python programming language that interfaces with lipsum.com (courtesy of James Wilson) to generate Lorem Ipsum text, useful for template designing when lots of mock-up text is needed.
+
+Pypsum actually consists of two programs, pypsum.py and pypsum-gtk.py.
+    </p>
+    <h3> How can you get it? </h3> 
+      <p>Pypsum is available only for Linux, at the moment. On Linux, you will need python (I have 2.5.2, might work with other versions, too) with the following modules: urllib2, xml.sax (for the command line tool), gtk, gtk.glade (for the graphical interface). Most modern Linux distributions (like Ubuntu) have these ready installed.
+
+You can get Pypsum from the Downloads tab, or, if you prefer, the Source tab. It's the same anyway, since it's written in Python and doesn't need any compiling.</p>
+      </section> 
+  
