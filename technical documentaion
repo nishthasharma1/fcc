@@ -1,9 +1,16 @@
-
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
 <nav id="navbar">
   <header>Various Lorem Ipsum</header>
-  
+  <ul>
+    <li>
+      <a class="nav-link" href="Introduction"> Introduction </a></li> 
+    <li><a class="nav-link" href="Lorem_Ipsum"> Lorem Ipsum</a></li>
+    <li><a class="nav-link" href="Pypsum"> Pypsum</a></li>
+    <li><a class="nav-link" href="Node_JS">Node JS</a></li>
+    <li><a class="nav-link" href="Pirate_Ipsum">Pirate Ipsum</a></li>
+     <li><a class="nav-link" href="Reference">Reference</a></li>
+           </ul>
 
 
 </nav>
