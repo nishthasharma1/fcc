@@ -1,15 +1,23 @@
+
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
+<nav id="navbar">
+  <header>Various Lorem Ipsum</header>
+  
+
+
+</nav>
 <main id="main-doc"> 
   
     <section class="main-section" id="Introduction"> 
-      <header> Introduction <header>
-        HEY! This technical 
+      <header>Introduction</header>
+        <p>Aloha! This technical documentation page is used to help you learn about the various types of space users one could use when they don't know what to write at a place!</p>
+        <p> Even though I wish that we could use these on our essays and tests when we are not sure of the answer, unfortunately, that is not the function for this. These are used for programming, so instead of saying blah blah blah... we could simply copy paste from the generators and use that spot!</p> 
   </section> 
  
   
-  <section class="main-section" id="lorem_ipsum"> 
-    <header> Lorem Ipsum </header> 
+  <section class="main-section" id="Lorem_Ipsum"> 
+    <header>Lorem Ipsum</header> 
     <h2> What is Lorem Ipsum? </h2>
       <p>
         <code>Lorem Ipsum</code> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -33,7 +41,7 @@
     </section> 
   
   <section class="main-section" id="Pypsum"> 
-    <header> Pypsum </header> 
+    <header>Pypsum</header> 
     <h2> What is it? </h2> 
     <p>
       <code>Pypsum</code> is a program written in the Python programming language that interfaces with lipsum.com (courtesy of James Wilson) to generate Lorem Ipsum text, useful for template designing when lots of mock-up text is needed.
@@ -46,3 +54,47 @@ Pypsum actually consists of two programs, pypsum.py and pypsum-gtk.py.
 You can get Pypsum from the Downloads tab, or, if you prefer, the Source tab. It's the same anyway, since it's written in Python and doesn't need any compiling.</p>
       </section> 
   
+<section class="main-section" id="Node_JS"> 
+  <header>Node JS</header>
+  <p>Node-lipsum is a NodeJS Module and Command-line Interface combo that provides a service API for lipsum.com, which you may or may not know as the go-to place to generate arbitrary dummy text whenever you need it. Node-lipsum can be used right from the command line by invoking <code>node-lipsum</code>(assuming you've installed it globally) or as a node module. When used as a node module, you can also get access to it's<code>service</code>and<code>parser<code>sub-modules, which can provide fine-grain access to lipsum.com's service.</p>
+    <p>There are 2 different ways to use node-lipsum: via the command line, and as a node module.</p>
+    <p>###The Command-Line Interface ####Basic Dummy Text Retrieval As <code>node-lipsum</code> was built with a specific use case in mind, it is available out of the box via the node-lipsum script. Provided you have installed node-lipsum globally, simply run</p>
+    <code>$ node-lipsum</code>
+    <p> That is the way it is simply run.</p>
+
+        </section>
+        
+<section class="main-section" id="Pirate_Ipsum"> 
+  <header>Pirate Ipsum</header> 
+<p>For funs and laughter, there are numerous variations for Lorem Ipsum that could be used instead. Pirate Ipsum being one.</p>
+<p>An example of that is: Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.</p>
+<p> Another example is: Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</p>
+<p>Lastly: Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</p>
+        </section>
+        
+    <section class="main-section" id="Reference">
+    <header>Reference</header>
+    <article>
+  <p>All the documentation in this page is taken from:</p>
+      <ul>
+        <li>
+          <a
+            href="https://github.com/traviskaufman/node-lipsum"
+            target="_blank"
+             >Github</a></li>
+        <li>
+            <a
+            href="https://www.shopify.ca/partners/blog/79940998-15-funny-lorem-ipsum-generators-to-shake-up-your-design-mockups"
+            target="_blank"
+               >Funny Lorem Ipsum</a>
+        </li>
+           <li>
+            <a
+            href="https://www.lipsum.com/"
+            target="_blank"
+               >Lorem Ipsum</a>
+        </li>
+      </ul>
+    </article>
+  </section>
+  </main>
