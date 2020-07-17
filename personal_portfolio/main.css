@@ -1,0 +1,48 @@
+/* kirby start */
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  background: #427;
+  color: white;
+  font-family: sans-serif;
+}
+
+canvas {
+  display: block;
+  width: 500px;
+  height: 250px;
+  cursor: move;
+  text-align: right;
+  position: fixed;
+  top: 25px;
+  left: -140px;
+}
+/* kirby end */
+/* nav bar starts */
+.nav {
+  background-color: #c70039;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.7);
+  z-index: 10;
+}
+
+.nav-list {
+  display: flex;
+  margin-right: 2rem;
+  list-style: none;
+}
+.welcome-section {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+/* nav bar ends */
